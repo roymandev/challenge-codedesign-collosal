@@ -1,6 +1,7 @@
 import '@/styles/globals.css';
 import Head from 'next/head';
 import { Noto_Sans } from 'next/font/google';
+import Header from './Header';
 
 const font = Noto_Sans({
   subsets: ['latin'],
@@ -23,7 +24,10 @@ const RootLayout = ({ children }: Props) => {
       </Head>
 
       <html lang="en" className={font.className}>
-        <body>{children}</body>
+        <body className="bg-dark text-white">
+          <Header />
+          {children}
+        </body>
       </html>
     </>
   );
