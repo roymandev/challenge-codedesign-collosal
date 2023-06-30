@@ -1,5 +1,13 @@
 import '@/styles/globals.css';
 import Head from 'next/head';
+import { Noto_Sans } from 'next/font/google';
+
+const font = Noto_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['700', '500', '400', '600'],
+  variable: '--font-noto-sans',
+});
 
 type Props = {
   children: React.ReactNode;
@@ -14,7 +22,7 @@ const RootLayout = ({ children }: Props) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <html lang="en">
+      <html lang="en" className={font.className}>
         <body>{children}</body>
       </html>
     </>
