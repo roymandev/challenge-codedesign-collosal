@@ -27,7 +27,7 @@ const Header = () => {
     <>
       <div
         className={clsx(
-          'fixed inset-x-0 top-0 -z-10 pb-10',
+          'absolute inset-x-0 top-0 -z-10 pb-10',
           'after:absolute after:inset-0 after:bg-[#0B0B22]/90 after:backdrop-blur-[175px]',
         )}
       >
