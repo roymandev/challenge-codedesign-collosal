@@ -1,5 +1,4 @@
 import Button from '@/components/Button';
-import clsx from 'clsx';
 import Image from 'next/image';
 import Link from 'next/link';
 import Background from '~/background-header.svg';
@@ -28,14 +27,11 @@ const NAV_LINKS = [
 const Header = () => {
   return (
     <>
-      <div
-        className={clsx(
-          'absolute inset-x-0 top-0 -z-10 pb-10',
-          'after:absolute after:inset-0 after:bg-[#0B0B22]/90 after:backdrop-blur-[175px]',
-        )}
-      >
-        <Image alt="" src={Background} className="object-contain" />
-      </div>
+      <Image
+        alt=""
+        src={Background}
+        className="absolute top-0 -z-10 object-contain opacity-[.12] blur-[175px]"
+      />
 
       <header className="mx-auto mt-14 flex w-full max-w-5xl items-center px-8">
         <Link href="/" className="relative z-10 w-[138px]">
