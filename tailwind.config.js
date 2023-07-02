@@ -11,6 +11,9 @@ module.exports = {
       green: '#16FCD2',
       white: colors.white,
       black: colors.black,
+      transparent: colors.transparent,
+      current: colors.current,
+      inherit: colors.inherit,
     },
     extend: {
       fontFamily: {
