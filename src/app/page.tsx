@@ -4,6 +4,7 @@ import SectionFeatures from './SectionFeatures';
 import SectionPartners from './SectionPartners';
 import SectionHowWeWork from './SectionHowWeWork';
 import SectionOurTeam from './SectionOurTeam';
+import SectionProjects from './SectionProjects';
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <SectionPartners />
       <SectionHowWeWork />
       <SectionOurTeam />
+      <SectionProjects />
     </main>
   );
 };
