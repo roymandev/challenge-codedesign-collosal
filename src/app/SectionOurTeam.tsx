@@ -6,27 +6,39 @@ import Link from 'next/link';
 
 const SectionOurTeam = () => {
   return (
-    <section className="mx-auto mt-10 flex w-full max-w-5xl">
-      <div className="my-16 max-w-[415px] flex-1">
-        <h2 className="font-semibold tracking-[1.6px] text-green">OUR TEAM</h2>
-        <span className="mt-1 text-3xl font-bold leading-[48px] text-white">
+    <section className="mx-auto mt-20 flex w-full max-w-5xl max-sm:flex-col-reverse sm:mt-10">
+      <div className="my-4 max-w-[415px] flex-1 sm:my-16">
+        <h2 className="font-semibold tracking-[1.6px] text-green max-sm:text-sm">
+          OUR TEAM
+        </h2>
+        <span className="mt-1 text-2xl font-bold leading-10 text-white sm:text-3xl sm:leading-[48px]">
           We&apos;re a team of designers, engineers and analysts
         </span>
-        <p className="mt-7 leading-8 text-white/60">
+        <p className="mt-4 leading-8 text-white/60 max-sm:text-sm max-sm:leading-6 sm:mt-7">
           Our team consists of many creative people. We are committed to
           maintaining quality work as well as speed. These creative people work
           together to create maximum work results.
         </p>
-        <Button className="mt-12" color="white" variant="light" size="large">
+        <Button
+          className="mt-6 max-sm:h-12 max-sm:px-8 max-sm:text-sm sm:mt-12"
+          color="white"
+          variant="light"
+          size="large"
+        >
           <Link href="/about#our-team">See Our Teams</Link>
         </Button>
       </div>
-      <div className="relative flex flex-1 items-center">
-        <Image alt="" src={Background} className="opacity-20 blur-[175px]" />
+
+      <div className="relative flex flex-1 items-center justify-center max-sm:max-h-[200px]">
+        <Image
+          alt=""
+          src={Background}
+          className="object-none opacity-20 blur-[175px]"
+        />
         <Image
           alt="Illustration How We Work"
           src={Illustration}
-          className="absolute"
+          className="absolute h-full w-auto"
         />
       </div>
     </section>
