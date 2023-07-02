@@ -4,20 +4,24 @@ import Illustration from '~/illustration-how-we-work.svg';
 
 const SectionHowWeWork = () => {
   return (
-    <section className="mx-auto flex w-full max-w-5xl items-center">
-      <div className="relative flex flex-1 items-center">
-        <Image alt="" src={Background} className="opacity-20 blur-[175px]" />
+    <section className="mx-auto flex w-full max-w-5xl items-center max-sm:flex-col">
+      <div className="relative flex flex-1 items-center justify-center max-sm:max-h-[200px]">
+        <Image
+          alt=""
+          src={Background}
+          className="object-none opacity-20 blur-[175px]"
+        />
         <Image
           alt="Illustration How We Work"
           src={Illustration}
-          className="absolute"
+          className="absolute h-full w-auto"
         />
       </div>
-      <div className="my-20 flex flex-1 flex-col">
+      <div className="my-4 flex flex-1 flex-col sm:my-20">
         <h2 className="font-semibold tracking-[1.6px] text-green">
           HOW WE WORK?
         </h2>
-        <span className="mt-1 text-3xl font-bold leading-[48px] text-white">
+        <span className="mt-1 text-2xl font-bold leading-10 text-white lg:text-3xl lg:leading-[48px]">
           Everything is well planned, well designed and developed wholeheartedly
         </span>
         <p className="mt-7 leading-8 text-white/60">
