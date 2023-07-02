@@ -1,21 +1,15 @@
 import Image from 'next/image';
+import Background from '~/background-how-we-work.svg';
+import Illustration from '~/illustration-how-we-work.svg';
 
 const SectionHowWeWork = () => {
   return (
     <section className="mx-auto flex w-full max-w-5xl items-center">
       <div className="relative flex flex-1 items-center">
-        <Image
-          alt=""
-          src="/background-how-we-work.svg"
-          width={714}
-          height={682}
-          className="opacity-20 blur-[175px]"
-        />
+        <Image alt="" src={Background} className="opacity-20 blur-[175px]" />
         <Image
           alt="Illustration How We Work"
-          src="/illustration-how-we-work.svg"
-          width={601}
-          height={525}
+          src={Illustration}
           className="absolute"
         />
       </div>

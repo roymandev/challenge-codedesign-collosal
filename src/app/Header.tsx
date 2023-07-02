@@ -2,6 +2,8 @@ import Button from '@/components/Button';
 import clsx from 'clsx';
 import Image from 'next/image';
 import Link from 'next/link';
+import Background from '~/background-header.svg';
+import Logo from '~/logo.svg';
 
 const NAV_LINKS = [
   {
@@ -31,17 +33,11 @@ const Header = () => {
           'after:absolute after:inset-0 after:bg-[#0B0B22]/90 after:backdrop-blur-[175px]',
         )}
       >
-        <Image
-          alt=""
-          src="/background-header.svg"
-          width={1440}
-          height={944}
-          className="object-contain"
-        />
+        <Image alt="" src={Background} className="object-contain" />
       </div>
       <header className="mx-auto mt-14 flex w-full max-w-5xl items-center px-4">
         <Link href="/" className="w-[138px]">
-          <Image alt="Collosal Logo" src="/logo.svg" width={138} height={31} />
+          <Image alt="Collosal Logo" src={Logo} />
         </Link>
 
         <nav className="flex flex-1 justify-center gap-[50px]">
