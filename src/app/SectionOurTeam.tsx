@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const SectionOurTeam = () => {
   return (
-    <section className="mx-auto flex w-full max-w-5xl">
+    <section className="mx-auto mt-10 flex w-full max-w-5xl">
       <div className="my-16 max-w-[415px] flex-1">
         <h2 className="font-semibold tracking-[1.6px] text-green">OUR TEAM</h2>
         <span className="mt-1 text-3xl font-bold leading-[48px] text-white">
