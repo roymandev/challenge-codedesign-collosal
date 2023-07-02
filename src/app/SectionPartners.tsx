@@ -15,9 +15,14 @@ const PARTNERS = [
 
 const SectionPartners = () => {
   return (
-    <section className="mx-auto my-[60px] flex w-full max-w-5xl items-center justify-center gap-11 border-y border-white/10 py-8">
+    <section className="mx-auto my-[60px] flex w-full max-w-5xl flex-wrap items-center justify-center gap-11 border-y border-white/10 py-8 max-sm:gap-6">
       {PARTNERS.map((partner, index) => (
-        <Image alt="" key={index} src={partner} />
+        <Image
+          alt=""
+          key={index}
+          src={partner}
+          className="max-sm:h-6 max-sm:w-auto"
+        />
       ))}
     </section>
   );
