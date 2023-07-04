@@ -20,7 +20,7 @@ const SectionOurTeam = () => {
           together to create maximum work results.
         </p>
         <Button
-          className="mt-6 max-sm:h-12 max-sm:px-8 max-sm:text-sm sm:mt-12"
+          className="mt-6 sm:mt-12"
           color="white"
           variant="light"
           size="large"

@@ -9,17 +9,13 @@ const SectionCallout = () => {
         problem
       </p>
       <div className="flex shrink-0 gap-[10px]">
-        <Button
-          asChild
-          size="large"
-          className="max-sm:h-[46px] max-sm:flex-1 max-sm:px-0 max-sm:text-sm"
-        >
+        <Button asChild size="large" className="max-sm:flex-1 max-sm:px-0">
           <Link href="/send-quote">Send Quote</Link>
         </Button>
         <Button
           size="large"
           variant="light"
-          className="max-sm:h-[46px] max-sm:flex-1 max-sm:px-0 max-sm:text-sm"
+          className="max-sm:flex-1 max-sm:px-0"
         >
           Ask Us
         </Button>

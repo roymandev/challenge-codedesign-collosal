@@ -19,12 +19,7 @@ const page = () => {
           few minutes for us to respond.
         </p>
 
-        <Button
-          variant="light"
-          color="white"
-          className="mt-12 max-sm:h-[46px] max-sm:text-sm"
-          size="large"
-        >
+        <Button variant="light" color="white" className="mt-12" size="large">
           Ask Us
         </Button>
       </section>

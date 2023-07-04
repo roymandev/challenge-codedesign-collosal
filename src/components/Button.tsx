@@ -31,7 +31,8 @@ const Button = ({
         variantId === 'white-filled' && 'bg-white text-dark',
         variantId === 'white-light' && 'bg-white/10 text-white',
         variantId === 'white-outline' && 'border border-white text-white',
-        size === 'large' && 'h-[52px] px-[55px] font-semibold',
+        size === 'large' &&
+          'sm:h-[52px] sm:px-[55px] font-semibold h-[46px] max-sm:text-sm px-8',
         size === 'medium' && 'h-[39px] px-[30px] text-sm font-medium',
         className,
       )}

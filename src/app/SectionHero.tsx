@@ -16,18 +16,14 @@ const SectionHero = () => {
         quality of our work.
       </p>
       <div className="mt-10 flex justify-center gap-4 sm:gap-6">
-        <Button
-          asChild
-          size="large"
-          className="max-sm:h-[46px] max-sm:flex-1 max-sm:px-0 max-sm:text-sm"
-        >
+        <Button asChild size="large" className="max-sm:flex-1 max-sm:px-0">
           <Link href="/send-quote">Send Quote</Link>
         </Button>
         <Button
           size="large"
           variant="light"
           color="white"
-          className="max-sm:h-[46px] max-sm:flex-1 max-sm:px-0 max-sm:text-sm"
+          className="max-sm:flex-1 max-sm:px-0"
         >
           Learn More
         </Button>
