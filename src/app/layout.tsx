@@ -2,6 +2,9 @@ import '@/styles/globals.css';
 import { Noto_Sans } from 'next/font/google';
 import Header from './Header';
 import { Metadata } from 'next';
+import SectionCallout from './SectionCallout';
+import Image from 'next/image';
+import Background from '~/background-footer.svg';
 
 const font = Noto_Sans({
   subsets: ['latin'],
@@ -25,6 +28,14 @@ const RootLayout = ({ children }: Props) => {
         <body className="bg-dark text-white">
           <Header />
           {children}
+          <div className="relative">
+            <Image
+              alt=""
+              src={Background}
+              className="absolute inset-x-0 z-[-1] mx-auto object-contain px-4"
+            />
+            <SectionCallout />
+          </div>
         </body>
       </html>
     </>
