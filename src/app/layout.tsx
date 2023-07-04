@@ -5,6 +5,7 @@ import { Metadata } from 'next';
 import SectionCallout from './SectionCallout';
 import Image from 'next/image';
 import Background from '~/background-footer.svg';
+import Footer from './Footer';
 
 const font = Noto_Sans({
   subsets: ['latin'],
@@ -35,6 +36,7 @@ const RootLayout = ({ children }: Props) => {
               className="absolute inset-x-0 z-[-1] mx-auto object-contain px-4"
             />
             <SectionCallout />
+            <Footer />
           </div>
         </body>
       </html>
