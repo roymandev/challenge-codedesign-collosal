@@ -18,7 +18,7 @@ const PricingCard = ({
   return (
     <article
       className={twclsx(
-        'w-full max-w-[328px] px-12 py-7 rounded-[10px]',
+        'w-full max-w-[328px] px-7 sm:px-12 py-7 rounded-[10px]',
         className,
       )}
     >
