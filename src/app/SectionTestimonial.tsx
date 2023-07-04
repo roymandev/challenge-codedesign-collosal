@@ -83,7 +83,7 @@ const SectionTestimonial = () => {
         What do our clients say that we never let down?
       </span>
 
-      <div className="my-24 h-[500px]">
+      <div className="py-24">
         <Slider
           dots
           infinite={false}
