@@ -22,7 +22,7 @@ const Footer = () => {
         <h3 className="mb-2 text-sm tracking-[1.4px] text-white">COMPANY</h3>
         <Link href="#">About</Link>
         <Link href="#">Contact</Link>
-        <Link href="#">Send Quote</Link>
+        <Link href="/send-quote">Send Quote</Link>
         <Link href="#">Privacy Policy</Link>
         <Link href="#">Term of Service</Link>
         <Link href="#">Jobs</Link>

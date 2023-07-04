@@ -1,4 +1,5 @@
 import Button from '@/components/Button';
+import Link from 'next/link';
 
 const SectionHero = () => {
   return (
@@ -16,10 +17,11 @@ const SectionHero = () => {
       </p>
       <div className="mt-10 flex justify-center gap-4 sm:gap-6">
         <Button
+          asChild
           size="large"
           className="max-sm:h-[46px] max-sm:flex-1 max-sm:px-0 max-sm:text-sm"
         >
-          Send Quote
+          <Link href="/send-quote">Send Quote</Link>
         </Button>
         <Button
           size="large"

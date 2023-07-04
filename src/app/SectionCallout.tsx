@@ -1,4 +1,5 @@
 import Button from '@/components/Button';
+import Link from 'next/link';
 
 const SectionCallout = () => {
   return (
@@ -9,10 +10,11 @@ const SectionCallout = () => {
       </p>
       <div className="flex shrink-0 gap-[10px]">
         <Button
+          asChild
           size="large"
           className="max-sm:h-[46px] max-sm:flex-1 max-sm:px-0 max-sm:text-sm"
         >
-          Send Quote
+          <Link href="/send-quote">Send Quote</Link>
         </Button>
         <Button
           size="large"
