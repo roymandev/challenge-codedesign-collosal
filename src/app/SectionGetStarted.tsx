@@ -1,4 +1,5 @@
 import PricingCard, { PricingCardProps } from '@/components/PricingCard';
+import SectionBadge from '@/components/SectionBadge';
 
 const SERVICES: PricingCardProps[] = [
   {
@@ -41,9 +42,7 @@ const COLORS = ['bg-[#3F2379]', 'bg-[#233679]', 'bg-[#792366]'];
 const SectionGetStarted = () => {
   return (
     <section className="rounded-[30px] bg-highlight px-4 py-10 text-center sm:mx-16 sm:pb-36 sm:pt-24">
-      <h2 className="font-semibold tracking-[1.6px] text-green max-sm:text-sm">
-        GET STARTED
-      </h2>
+      <SectionBadge>GET STARTED</SectionBadge>
 
       <span className="mx-auto mt-1 block max-w-[507px] text-xl font-bold leading-8 text-white sm:text-3xl sm:leading-[48px]">
         What do you need? Choose a service that can help you

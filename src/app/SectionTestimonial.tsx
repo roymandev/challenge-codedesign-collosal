@@ -8,6 +8,7 @@ import TestimonialCard, {
 import clsx from 'clsx';
 import Image from 'next/image';
 import Background from '~/background-testimonial.svg';
+import SectionBadge from '@/components/SectionBadge';
 
 const TESTIMONIALS: TestimonialCardProps[] = [
   {
@@ -75,9 +76,7 @@ const SectionTestimonial = () => {
         className="absolute object-contain object-center opacity-20 blur-[175px]"
         fill
       />
-      <h2 className="font-semibold tracking-[1.6px] text-green max-sm:text-sm">
-        TESTIMONIAL
-      </h2>
+      <SectionBadge>TESTIMONIAL</SectionBadge>
 
       <span className="mx-auto mt-1 block max-w-[507px] text-xl font-bold leading-8 text-white sm:text-3xl sm:leading-[48px]">
         What do our clients say that we never let down?

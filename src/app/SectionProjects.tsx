@@ -1,4 +1,5 @@
 import ProjectCard, { ProjectCardProps } from '@/components/ProjectCard';
+import SectionBadge from '@/components/SectionBadge';
 import Image from 'next/image';
 import Background1 from '~/background-projects-1.svg';
 import Background2 from '~/background-projects-2.svg';
@@ -28,9 +29,7 @@ const SectionProjects = () => {
         className="absolute inset-0 top-20 z-[-1] mx-auto"
       />
       <section className="mx-auto mt-28 w-full max-w-5xl border-t border-white/10 py-16 text-center">
-        <h2 className="font-semibold tracking-[1.6px] text-green max-sm:text-sm">
-          PROJECTS
-        </h2>
+        <SectionBadge>PROJECTS</SectionBadge>
         <span className="mx-auto mt-1 block max-w-[507px] text-2xl font-bold leading-10 text-white sm:text-3xl sm:leading-[48px]">
           We have completed many amazing projects that you will not believe
         </span>

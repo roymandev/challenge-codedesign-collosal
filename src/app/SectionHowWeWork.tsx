@@ -1,3 +1,4 @@
+import SectionBadge from '@/components/SectionBadge';
 import Image from 'next/image';
 import Background from '~/background-how-we-work.svg';
 import Illustration from '~/illustration-how-we-work.svg';
@@ -18,9 +19,7 @@ const SectionHowWeWork = () => {
         />
       </div>
       <div className="my-4 flex flex-1 flex-col sm:my-20">
-        <h2 className="font-semibold tracking-[1.6px] text-green max-sm:text-sm">
-          HOW WE WORK?
-        </h2>
+        <SectionBadge>HOW WE WORK?</SectionBadge>
         <span className="mt-1 text-2xl font-bold leading-10 text-white lg:text-3xl lg:leading-[48px]">
           Everything is well planned, well designed and developed wholeheartedly
         </span>

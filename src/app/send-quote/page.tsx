@@ -1,5 +1,6 @@
 import Button from '@/components/Button';
 import Input from '@/components/Input';
+import SectionBadge from '@/components/SectionBadge';
 import Select from '@/components/Select';
 import Textarea from '@/components/Textarea';
 
@@ -7,9 +8,7 @@ const page = () => {
   return (
     <main className="mx-auto my-32 flex w-full max-w-5xl justify-between gap-10 px-4 max-sm:flex-col sm:gap-4">
       <section className="max-w-[502px]">
-        <h2 className="font-semibold tracking-[1.6px] text-green max-sm:text-sm">
-          SEND QUOTE
-        </h2>
+        <SectionBadge>SEND QUOTE</SectionBadge>
         <p className="mt-3 text-2xl font-bold leading-10 sm:text-4xl sm:leading-[54px]">
           Tell us about your problem and how we can help
         </p>

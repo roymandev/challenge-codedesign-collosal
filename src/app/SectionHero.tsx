@@ -1,12 +1,11 @@
 import Button from '@/components/Button';
+import SectionBadge from '@/components/SectionBadge';
 import Link from 'next/link';
 
 const SectionHero = () => {
   return (
     <section className="mx-auto w-full max-w-[600px] py-[100px] text-center">
-      <p className="font-semibold tracking-[1.6px] text-green max-sm:text-sm">
-        CLIENT-DEVELOPMENT DRIVEN
-      </p>
+      <SectionBadge>CLIENT-DEVELOPMENT DRIVEN</SectionBadge>
       <p className="mt-3 text-2xl font-bold leading-9 sm:text-4xl sm:leading-[54px]">
         We Design. We Develop. We Ship. In The Same Day.
       </p>

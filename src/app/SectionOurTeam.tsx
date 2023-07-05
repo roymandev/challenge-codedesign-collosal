@@ -3,14 +3,13 @@ import Image from 'next/image';
 import Illustration from '~/illustration-our-team.svg';
 import Background from '~/background-our-team.svg';
 import Link from 'next/link';
+import SectionBadge from '@/components/SectionBadge';
 
 const SectionOurTeam = () => {
   return (
     <section className="mx-auto mt-20 flex w-full max-w-5xl max-sm:flex-col-reverse sm:mt-10">
-      <div className="my-4 max-w-[415px] flex-1 sm:my-16">
-        <h2 className="font-semibold tracking-[1.6px] text-green max-sm:text-sm">
-          OUR TEAM
-        </h2>
+      <div className="my-4 flex max-w-[415px] flex-1 flex-col items-start sm:my-16">
+        <SectionBadge>OUR TEAM</SectionBadge>
         <span className="mt-1 text-2xl font-bold leading-10 text-white sm:text-3xl sm:leading-[48px]">
           We&apos;re a team of designers, engineers and analysts
         </span>
