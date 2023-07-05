@@ -21,7 +21,7 @@ const ProjectCard = ({
   className,
 }: ProjectCardProps) => {
   return (
-    <article className={twclsx(className)}>
+    <article className={twclsx('text-center', className)}>
       <div className="relative aspect-square overflow-hidden rounded-[3px] border border-white/10">
         <Image
           alt={image ? `Thumbnail ${title}` : 'Placeholder image'}
