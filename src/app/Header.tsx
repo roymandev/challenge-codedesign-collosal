@@ -34,7 +34,7 @@ const Header = () => {
       />
 
       <header className="mx-auto mt-14 flex w-full max-w-5xl items-center px-8">
-        <Link href="/" className="relative z-10 w-[138px]">
+        <Link href="/" className="relative z-20 w-[138px]">
           <Image alt="Collosal Logo" src={Logo} />
         </Link>
 

@@ -18,7 +18,7 @@ const MobileNav = ({ className, navLinks, contactButton }: Props) => {
 
   return (
     <>
-      <div className={twclsx(className, 'relative z-10')}>
+      <div className={twclsx(className, 'relative z-20')}>
         <Button
           variant="light"
           color="white"
@@ -30,7 +30,7 @@ const MobileNav = ({ className, navLinks, contactButton }: Props) => {
       </div>
       <div
         className={twclsx(
-          'fixed inset-0 z-0 bg-dark/50 backdrop-blur-lg opacity-100 transition-opacity duration-500 pt-40 flex flex-col',
+          'fixed inset-0 z-10 bg-dark/50 backdrop-blur-lg opacity-100 transition-opacity duration-500 pt-40 flex flex-col',
           !navOpen && 'opacity-0 pointer-events-none',
         )}
       >
