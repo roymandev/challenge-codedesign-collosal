@@ -8,25 +8,25 @@ const PROJECTS: ProjectCardProps[] = [
     type: 'mobile',
     title: 'The Mobile App Landing Page',
     desc: 'A landing page for mobile app',
-    href: '#',
+    href: '/project/1',
   },
   {
     type: 'desktop',
     title: 'The Desktop App Landing Page',
     desc: 'A landing page for desktop app',
-    href: '#',
+    href: '/project/1',
   },
   {
     type: 'mobile',
     title: 'The Mobile App Landing Page',
     desc: 'A landing page for mobile app',
-    href: '#',
+    href: '/project/1',
   },
   {
     type: 'desktop',
     title: 'The Desktop App Landing Page',
     desc: 'A landing page for desktop app',
-    href: '#',
+    href: '/project/1',
   },
 ];
 
