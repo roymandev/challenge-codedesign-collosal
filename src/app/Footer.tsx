@@ -12,14 +12,15 @@ const Footer = () => {
       </div>
       <div className="flex flex-col gap-[10px]">
         <h3 className="mb-2 text-sm tracking-[1.4px] text-white">SERVICES</h3>
-        <Link href="#">Web Development</Link>
-        <Link href="#">App Development</Link>
-        <Link href="#">UI Design</Link>
-        <Link href="#">Consultation</Link>
-        <Link href="#">Maintenance</Link>
+        <Link href="/service">Web Development</Link>
+        <Link href="/service">App Development</Link>
+        <Link href="/service">UI Design</Link>
+        <Link href="/service">Consultation</Link>
+        <Link href="/service">Maintenance</Link>
       </div>
       <div className="flex flex-col gap-[10px]">
         <h3 className="mb-2 text-sm tracking-[1.4px] text-white">COMPANY</h3>
+        <Link href="/blog">Blogs</Link>
         <Link href="#">About</Link>
         <Link href="#">Contact</Link>
         <Link href="/send-quote">Send Quote</Link>
