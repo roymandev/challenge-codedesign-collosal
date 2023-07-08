@@ -8,7 +8,7 @@ import IconArrowRight from '~/icon-arrow-right.svg';
 
 const SectionUiDesign = () => {
   return (
-    <section className="mx-auto my-24 grid max-w-6xl gap-16 px-4 lg:grid-cols-2">
+    <section className="mx-auto my-24 grid max-w-6xl gap-16 lg:grid-cols-2">
       <Image
         alt="Ui Design Illustration"
         src={Illustration}

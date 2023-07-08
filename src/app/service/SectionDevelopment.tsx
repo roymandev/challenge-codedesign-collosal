@@ -10,7 +10,7 @@ import Illustration from '~/illustration-development.svg';
 
 const SectionDevelopment = () => {
   return (
-    <section className="mx-auto my-24 flex max-w-6xl gap-16 px-4 max-sm:flex-col-reverse">
+    <section className="mx-auto my-24 flex max-w-5xl gap-16 max-lg:flex-col-reverse">
       <div className="flex flex-1 flex-col">
         <SectionBadge>DEVELOPMENT</SectionBadge>
         <p className="mt-3 w-full max-w-lg text-2xl font-bold leading-10 sm:text-4xl sm:leading-[54px]">

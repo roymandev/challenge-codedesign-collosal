@@ -11,7 +11,7 @@ import IconCheckCircle from '~/icon-check-circle.svg';
 
 const SectionMaintance = () => {
   return (
-    <section className="mx-auto my-24 flex max-w-6xl gap-16 px-4 max-sm:flex-col">
+    <section className="mx-auto my-24 flex max-w-5xl gap-16 max-lg:flex-col">
       <div className="relative flex flex-1 items-center justify-center max-sm:max-h-[200px]">
         <Image
           alt=""
@@ -36,25 +36,25 @@ const SectionMaintance = () => {
         </p>
         <div className="mt-7 grid gap-5 font-medium sm:grid-cols-2">
           <div className="flex items-center gap-6">
-            <span className="rounded-[3px] bg-white/5 p-[15px]">
+            <span className="shrink-0 rounded-[3px] bg-white/5 p-[15px]">
               <Image alt="" src={IconDownload} />
             </span>
             Back up every day
           </div>
           <div className="flex items-center gap-6">
-            <span className="rounded-[3px] bg-white/5 p-[15px]">
+            <span className="shrink-0 rounded-[3px] bg-white/5 p-[15px]">
               <Image alt="" src={IconArrowUp} />
             </span>
             Upgrade
           </div>
           <div className="flex items-center gap-6">
-            <span className="rounded-[3px] bg-white/5 p-[15px]">
+            <span className="shrink-0 rounded-[3px] bg-white/5 p-[15px]">
               <Image alt="" src={IconRefresh} />
             </span>
             Cleaning every week
           </div>
           <div className="flex items-center gap-6">
-            <span className="rounded-[3px] bg-white/5 p-[15px]">
+            <span className="shrink-0 rounded-[3px] bg-white/5 p-[15px]">
               <Image alt="" src={IconCheckCircle} />
             </span>
             Fixing error
