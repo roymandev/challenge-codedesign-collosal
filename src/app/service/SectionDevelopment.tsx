@@ -37,7 +37,7 @@ const SectionDevelopment = () => {
         </div>
         <Link
           href="/service/development"
-          className="ml-auto mt-7 flex gap-5 px-1 hover:underline"
+          className="ml-auto mt-7 flex gap-5 px-1 font-semibold hover:underline"
         >
           Service Detail <Image alt="" src={IconArrowRight} />
         </Link>
