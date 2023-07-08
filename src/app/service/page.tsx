@@ -1,4 +1,5 @@
 import SectionDevelopment from './SectionDevelopment';
+import SectionMaintance from './SectionMaintance';
 import SectionTitle from './SectionTitle';
 import SectionUiDesign from './SectionUiDesign';
 
@@ -8,6 +9,7 @@ const page = () => {
       <SectionTitle />
       <SectionUiDesign />
       <SectionDevelopment />
+      <SectionMaintance />
     </main>
   );
 };
