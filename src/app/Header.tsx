@@ -8,7 +8,7 @@ import MobileNav from './MobileNav';
 const NAV_LINKS = [
   {
     label: 'Services',
-    href: '/#services',
+    href: '/service',
   },
   {
     label: 'How We Work',
