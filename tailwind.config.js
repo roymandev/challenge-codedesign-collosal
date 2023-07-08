@@ -10,6 +10,7 @@ module.exports = {
       dark: '#0B0B22',
       green: '#16FCD2',
       highlight: '#221048',
+      red: '#FC165B',
       white: colors.white,
       black: colors.black,
       transparent: colors.transparent,
@@ -22,5 +23,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };

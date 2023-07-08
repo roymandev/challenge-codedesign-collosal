@@ -25,7 +25,7 @@ const Footer = () => {
         <Link href="#">Contact</Link>
         <Link href="/send-quote">Send Quote</Link>
         <Link href="#">Privacy Policy</Link>
-        <Link href="#">Term of Service</Link>
+        <Link href="/tos">Term of Service</Link>
         <Link href="#">Jobs</Link>
       </div>
       <div className="flex flex-col gap-[10px]">
