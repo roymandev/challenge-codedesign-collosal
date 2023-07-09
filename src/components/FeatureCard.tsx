@@ -18,6 +18,7 @@ const FeatureCard = ({
     <span
       className={twclsx(
         'shrink-0',
+        iconStyle === 'default' && 'max-sm:w-9',
         iconStyle === 'squared' && 'rounded-[3px] bg-white/[.03] p-[13px]',
       )}
     >
