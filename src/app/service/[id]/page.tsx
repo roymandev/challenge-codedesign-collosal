@@ -1,5 +1,6 @@
 import SectionBadge from '@/components/SectionBadge';
-import Image from 'next/image';
+import SectionFeatures from './SectionFeatures';
+import SectionFAQ from './SectionFAQ';
 
 const ServiceDetailPage = () => {
   const data = {
@@ -24,28 +25,8 @@ const ServiceDetailPage = () => {
         </p>
       </section>
 
-      <section className="grid items-center gap-10 px-2 py-16 sm:grid-cols-2">
-        <div className="relative aspect-square h-min w-full max-w-sm shrink-0 lg:max-w-[462px]">
-          <Image
-            alt={data.title}
-            src={data.image}
-            fill
-            className="object-contain"
-          />
-        </div>
-        <div className="py-3">
-          <div className="whitespace-pre-line leading-8 text-white/60 prose-p:mb-10">
-            {data.desc}
-          </div>
-          <ol className="mt-10 list-[square] space-y-[10px] pl-4 font-medium leading-8">
-            {data.summaries.map((summary) => (
-              <li key={summary}>
-                <span className="ml-2">{summary}</span>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
+      <SectionFeatures />
+      <SectionFAQ />
     </main>
   );
 };
