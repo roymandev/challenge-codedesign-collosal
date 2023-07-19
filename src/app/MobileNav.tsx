@@ -5,6 +5,7 @@ import { useDisclosure } from '@/hooks/useDisclosure';
 import twclsx from '@/lib/twclsx';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect } from 'react';
 import IconBars from '~/icon-bars.svg';
 
 type Props = {
@@ -15,6 +16,14 @@ type Props = {
 
 const MobileNav = ({ className, navLinks, contactButton }: Props) => {
   const [navOpen, handlers] = useDisclosure();
+
+  useEffect(() => {
+    if (navOpen) {
+      document.body.classList.add('overflow-hidden');
+    } else {
+      document.body.classList.remove('overflow-hidden');
+    }
+  }, [navOpen]);
 
   return (
     <>
